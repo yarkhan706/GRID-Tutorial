@@ -1,0 +1,49 @@
+header,
+nav,
+footer,
+main,
+aside {
+  background-color:#6A6F4C;
+  color: aliceblue;
+  padding: 10px;
+  margin: 1px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-areas:
+    "h h h"
+    "n c s"
+    "n f f";
+
+  height: 100vh;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 1fr 80% 2fr;
+}
+
+header {
+  grid-area: h;
+}
+nav {
+  grid-area: n;
+}
+
+footer {
+  grid-area: f;
+}
+
+main {
+  grid-area: c;
+}
+
+aside {
+  grid-area: s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
