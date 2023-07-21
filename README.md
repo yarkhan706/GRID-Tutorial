@@ -17,6 +17,6 @@ Feel free to modify the HTML and CSS files according to your requirements and ex
 
 ## Credits
 
-This project was created by [yarkhan706]. If you found this layout helpful, you can acknowledge this repository in your own projects.
+This project was created by [@yarkhan706]. If you found this layout helpful, you can acknowledge this repository in your own projects.
 
 Happy coding!
